@@ -19,4 +19,4 @@ def test_password_characters():
 
 
 #РАБОТАЕТ👍
-#работает?
+#diamantos
