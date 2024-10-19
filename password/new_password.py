@@ -11,6 +11,7 @@ def generate_password(length=12):
     return password
 
 
+# 123
 
 
 # Пример использования
