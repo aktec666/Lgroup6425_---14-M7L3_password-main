@@ -23,3 +23,5 @@ def test_password_characters():
 #РАБОТАЕТ👍
 
 #Тускул был здесь
+
+# hochu pelmeni
