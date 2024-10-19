@@ -16,6 +16,14 @@ def test_password_characters():
 Тест, что два сгенерированных подряд пароля различаются
 """
 
+def test_lenght_password():
+    password = generate_password(20)
+    assert len(password) == 20
+
+def test_different_passwords():
+    password, password1 = generate_password(10), generate_password(10)
+    assert password != password1
+
 #AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 #ILYAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
