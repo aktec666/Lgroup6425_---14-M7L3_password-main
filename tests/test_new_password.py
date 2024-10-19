@@ -20,6 +20,10 @@ def test_password_characters():
 
 #ILYAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 
+#test
+
+
+
 #РАБОТАЕТ👍
 
 #Тускул был здесь
