@@ -16,6 +16,7 @@ def test_password_characters():
 Тест, что два сгенерированных подряд пароля различаются
 """
 
+#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 
 #РАБОТАЕТ👍
