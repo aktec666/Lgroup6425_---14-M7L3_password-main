@@ -20,3 +20,5 @@ def test_lenght_passworld():
     pas = 123456789
     password = generate_password(pas)
     assert len(password) == pas
+
+#ошибок нет но не работает(
