@@ -16,20 +16,7 @@ def test_password_characters():
 Тест, что два сгенерированных подряд пароля различаются
 """
 
-#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-
-#ILYAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
-
-#test
-
-
-
-#РАБОТАЕТ👍
-
-
-#Тускул был здесь
-#diamantos
-# hochu pelmeni
-
-
-###########################################################
+def test_lenght_passworld():
+    pas = 123456789
+    password = generate_password(pas)
+    assert len(password) == pas
